@@ -1,0 +1,91 @@
+in make, 0
+term number 0
+in make, 1
+term number 0
+in make, 2
+term number 0
+in make, 3
+term number 0
+in make, 4
+term number 0
+Test (4B): more persistence ...
+up to date: 0 0 0 0
+VOTED
+Incremented counter 0 granted vote to 2
+up to date: 0 0 0 0
+VOTED
+labgob warning: Decoding into a non-default variable/field Term may not work
+Incremented counter 1 granted vote to 2
+up to date: 0 0 0 0
+VOTED
+Incremented counter 3 granted vote to 2
+up to date: 0 0 0 0
+VOTED
+Incremented counter 4 granted vote to 2
+2 becoming leader 5 5
+[{<nil> 0}] is the log for server 1
+[{<nil> 0}] is the log for server 3
+[{<nil> 0}] is the log for server 0
+[{<nil> 0}] is the log for server 4
+[{<nil> 0} {11 1}] is the log for server 2
+[{<nil> 0} {11 1}] is the log for server 4
+[{<nil> 0} {11 1}] is the log for server 1
+[{<nil> 0} {11 1}] is the log for server 3
+[{<nil> 0} {11 1}] is the log for server 0
+[{<nil> 0} {11 1}] is the log for server 0
+[{<nil> 0} {11 1}] is the log for server 3
+[{<nil> 0} {11 1}] is the log for server 1
+[{<nil> 0} {11 1}] is the log for server 4
+[{<nil> 0} {11 1}] is the log for server 1
+[{<nil> 0} {11 1}] is the log for server 0
+[{<nil> 0} {11 1}] is the log for server 4
+[{<nil> 0} {11 1}] is the log for server 3
+[{<nil> 0} {11 1}] is the log for server 4
+[{<nil> 0} {11 1}] is the log for server 0
+[{<nil> 0} {11 1}] is the log for server 1
+[{<nil> 0} {11 1}] is the log for server 3
+[{<nil> 0} {11 1}] is the log for server 0
+[{<nil> 0} {11 1}] is the log for server 1
+[{<nil> 0} {11 1}] is the log for server 3
+[{<nil> 0} {11 1}] is the log for server 4
+[{<nil> 0} {11 1}] is the log for server 1
+[{<nil> 0} {11 1}] is the log for server 4
+[{<nil> 0} {11 1}] is the log for server 3
+[{<nil> 0} {11 1}] is the log for server 0
+[{<nil> 0} {11 1}] is the log for server 4
+[{<nil> 0} {11 1}] is the log for server 0
+[{<nil> 0} {11 1}] is the log for server 3
+[{<nil> 0} {11 1}] is the log for server 1
+disconnecting 3
+disconnecting 4
+[{<nil> 0} {11 1} {12 1}] is the log for server 2
+[{<nil> 0} {11 1} {12 1}] is the log for server 1
+[{<nil> 0} {11 1} {12 1}] is the log for server 0
+[{<nil> 0} {11 1} {12 1}] is the log for server 1
+[{<nil> 0} {11 1} {12 1}] is the log for server 0
+[{<nil> 0} {11 1} {12 1}] is the log for server 0
+[{<nil> 0} {11 1} {12 1}] is the log for server 1
+[{<nil> 0} {11 1} {12 1}] is the log for server 1
+[{<nil> 0} {11 1} {12 1}] is the log for server 0
+disconnecting 2
+disconnecting 0
+disconnecting 1
+in make, 3
+term number 0
+in make, 4
+term number 0
+reconnecting 3
+reconnecting 4
+up to date: 1 1 1 1
+VOTED
+Incremented counter 3 granted vote to 4
+in make, 0
+term number 0
+reconnecting 0
+up to date: 1 1 1 2
+up to date: 1 1 1 1
+up to date: 1 1 2 1
+up to date: 1 1 2 1
+17:07:28.454488 one(13) failed to reach agreement
+exit status 1
+FAIL	cs350/raft	13.262s
